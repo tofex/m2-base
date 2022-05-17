@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<!--
+ * @author      Andreas Knollmann
+ * @copyright   Copyright (c) 2014-2022 Tofex UG (http://www.tofex.de)
+ * @license     http://www.opensource.org/licenses/mit-license.php MIT
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Tofex_Base::menu" title="Tofex" module="Tofex_Base" sortOrder="50" resource="Tofex_Base::menu" />
+        <add id="Tofex_Base::tofex_solutions" title="Tofex Solutions" module="Tofex_Base" sortOrder="0" resource="Tofex_Base::tofex_solutions" action="tofex_solutions/index/index" parent="Tofex_Base::menu"/>
+    </menu>
+</config>

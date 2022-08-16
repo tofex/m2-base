@@ -9,6 +9,7 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
+                <item name="encryption_decrypt" xsi:type="object">Tofex\Base\Command\Decrypt</item>
                 <item name="encryption_encrypt" xsi:type="object">Tofex\Base\Command\Encrypt</item>
             </argument>
         </arguments>
